@@ -1,0 +1,152 @@
+.Panel {
+    background-color: rgba(32, 34, 37, 0.8);
+    
+}
+
+.RadPageView {
+    background-color: rgba(32,34,37,0.1);
+}
+
+option, select, textarea, input[type=password], input[type=text] {
+    background-color: rgba(32, 34, 37, 1) !important;
+    border: solid 1px rgba(32, 34, 37, 1) !important;
+}
+
+option:focus, option:hover, select:focus, select:hover, textarea:focus, textarea:hover, input[type=password]:focus, input[type=password]:hover, input[type=text]:focus, input[type=text]:hover {
+    background-color: rgba(32, 34, 37, 1) !important;
+}
+
+.dropdown-wrapper select, .RadInput_Default input, .textbox-wrapper textarea, .textbox-wrapper input, .textbox-wrapper textarea:hover, .dropdown-wrapper select:hover {
+    background-color: rgba(32, 34, 37, 1) !important;
+    border: solid 1px rgba(32, 34, 37, 1) !important;
+}
+
+.RadGrid_TCAdmin .rgNumPart a {
+    border: 1px solid rgb(35, 39, 42);
+    line-height: 20px;
+    color: #fff;
+}
+
+.RadGrid_TCAdmin .rgNumPart a.rgCurrentPage, .RadGrid_TCAdmin .rgNumPart a.rgCurrentPage:hover {
+    border-color: rgb(35, 39, 42);
+    background: rgb(35, 39, 42);
+    color: #fff;
+}
+
+.RadGrid_TCAdmin .rgNumPart a:hover {
+    border-color: rgb(35, 39, 42);
+    background: rgb(35, 39, 42);
+    color: #fff;
+    transition: 0.3s;
+}
+
+.WorkshopActionContainer div:first-child .NotInstalled {
+    background-color: rgb(35, 39, 42);
+    border-bottom-left-radius: 10px;
+}
+
+.WorkshopActionContainer div:nth-child(2n) {
+    background-color: rgb(35, 39, 42);
+    border-bottom-right-radius: 10px;
+}
+
+.WorkshopActionContainer div:first-child .NotInstalled:hover {
+    background-color: #fd5800;
+    border-bottom-left-radius: 10px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.WorkshopActionContainer div:nth-child(2n):hover {
+    background-color: #fd5800;
+    border-bottom-right-radius: 10px;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.WorkshopActionContainer div:first-child .Installed {
+    background-color: rgb(35, 39, 42);
+    border-bottom-left-radius: 10px;
+    color: #fff;
+}
+
+.WorkshopActionContainer div:first-child .Installed:hover {
+    background-color: #fd5800;
+    border-bottom-left-radius: 10px;
+    border-color: #fd5800;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.IconTitleLine {
+    background: none !important;
+    background-position: bottom;
+    border-bottom: 1px solid;
+}
+
+.Meter .Bar {
+    background-color: #fd5800;
+    border-color: #fd5800;
+}
+
+.Meter {
+    background: rgba(32, 34, 37, 1);
+    border-color: rgba(32, 34, 37, 1);
+}
+
+.RadDock_TCAdmin fieldset .rdMiddle .rdCenter, .RadDock_TCAdmin .rdBottom .rdCenter {
+    background-color: rgb(35, 39, 42);
+    border: 0.09em solid rgb(35, 39, 42);
+}
+
+.RadDock_TCAdmin .rdContent {
+    color: rgb(248, 249, 250);
+    background-color: rgb(35, 39, 42);
+}
+
+.RadToolBarDropDown .rtbWrap {
+    background-color: rgb(35, 39, 42);
+    border-color: rgb(35, 39, 42);
+}
+
+.RadToolBar .rtbWrap:hover {
+    outline: 0;
+    background-color: #fd5800 !important;
+    transition: 0.3s;
+}
+
+.HyperLink, .HyperLinkCommand {
+    color: #fff;
+
+}
+
+.HyperLink, .HyperLinkCommand:hover {
+    color: #fff;
+
+}
+
+.RadTabStripTop_TCAdmin .rtsSelected, .RadTabStripTop_TCAdmin .rtsSelected:hover {
+    color: #fff !important;
+
+}
+
+.RadTabStrip .rtsLevel1 .rtsTxt, .RadTabStripVertical .rtsLevel1 .rtsTxt {
+    color: #fff;
+}
+
+.RadGrid_TCAdmin .rgFilterBox {
+    color: #fff;
+}
+
+.LabelOn {
+    color: #31ff31 !important;
+}
+
+.RadComboBox_TCAdmin input[type=text] {
+    color: #fff;
+}
+
+.RadGrid_TCAdmin .rgEditForm {
+    border-bottom: 1px solid #fd5800;
+    background-color: rgba(35,39,42,0.1);
+}
