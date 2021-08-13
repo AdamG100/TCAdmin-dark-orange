@@ -1,5 +1,5 @@
 {
-    "name": "dark-orange",
+    "name": "dark orange",
     "base": "@progress/kendo-theme-bootstrap",
     "product": "kendo",
     "components": [],
@@ -136,7 +136,7 @@
                 "button-bg": {
                     "name": "Button background",
                     "type": "color",
-                    "value": "#212529",
+                    "value": "#fd5800",
                     "key": "button-bg"
                 },
                 "link-text": {

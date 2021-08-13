@@ -17,8 +17,8 @@ option:focus, option:hover, select:focus, select:hover, textarea:focus, textarea
 }
 
 .dropdown-wrapper select, .RadInput_Default input, .textbox-wrapper textarea, .textbox-wrapper input, .textbox-wrapper textarea:hover, .dropdown-wrapper select:hover {
-    background-color: rgba(32, 34, 37, 1) !important;
-    border: solid 1px rgba(32, 34, 37, 1) !important;
+    background-color: rgb(35, 39, 42) !important;
+    border: solid 1px rgb(35, 39, 42) !important;
 }
 
 .RadGrid_TCAdmin .rgNumPart a {
