@@ -1,3 +1,6 @@
+body {
+    background-color: #202225;
+}
 .nav-fostrap {
     background-color: #202225;
 
@@ -321,6 +324,21 @@ body::-webkit-scrollbar {
   }
   
 /* inner scrollbars for Alex mods page */
+/* scrollbars for mysql manager */
+.k-auto-scrollable::-webkit-scrollbar {
+    width: 0.5em;
+  }
+   
+  .k-auto-scrollable::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px #23272A;
+    border-radius: 100px;
+  }
+   
+  .k-auto-scrollable::-webkit-scrollbar-thumb {
+    background-color:  #fd5800;
+    border-radius: 100px;
+  }
+ /* scrollbars for mysql manager */
 
   .k-textbox {
     border-color: #fd5800;
@@ -416,4 +434,30 @@ body::-webkit-scrollbar {
     border-color: fd5800;
     color: #fd5800;
     background-color: #202225;
+}
+
+/* fixes for the sub header */
+
+.primary-color-sidebar #sidebar fieldset:first-of-type legend {
+    border-left: 0;
+    border-top: 0;
+    margin: 0 auto;
+}
+
+@media only screen and (min-width: 901px) {
+#main .header-text {
+    margin: 0 auto
+
+    }
+}
+
+/* fixes for the sub header */
+
+#footer #info {
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 8px;
+    margin: 0 0 0 0;
+    border-top: 1px solid #fd5800;
+
 }
