@@ -461,3 +461,9 @@ body::-webkit-scrollbar {
     border-top: 1px solid #fd5800;
 
 }
+
+@media only screen and (max-width: 900px) {
+  #sidebar.visible {
+    background-color: #23272A;
+  }
+}
